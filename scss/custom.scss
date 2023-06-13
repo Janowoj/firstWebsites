@@ -1,0 +1,38 @@
+//
+body {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 4rem;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #b7f5f5;
+}
+
+ul {
+    list-style: none;
+}
+
+@media(max-width: 550px) {
+    #book h5 {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 400px) {
+    #book h5 {
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 400px) {
+    #book p {
+        font-size: 0.7rem;
+    }
+}
+
+@media(max-width: 400px) {
+    h3 {
+        font-size: 0.5rem;
+    }
+}
